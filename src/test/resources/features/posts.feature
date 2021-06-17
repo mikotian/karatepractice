@@ -18,4 +18,12 @@ Feature: Post Tests
     Then match responseStatus == 201
     And match response == postsSchema
 
+  @posts
+  Scenario: Get a particular post
+    Given path 'posts','10'
+    When method GET
+    Then match responseStatus == 200
+    And match response == postsSchema
+    And match response.title contains 'optio'
+
 

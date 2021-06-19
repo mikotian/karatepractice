@@ -94,3 +94,29 @@ Navigate to ./target/karate-reports/karate-summary.html
 
 #### Cucumber Reports:
 Navigate to ./target/cucumber-html-reports/overview-features.html
+
+##Additional Usage
+
+To run tests of a specific 'tag' e.g. @posts
+
+~~~
+mvn test -Dtags=@posts
+~~~
+
+To run tests only from a specific folder(inside features)
+
+~~~
+mvn test -Dfeatures='<folder>'
+~~~
+
+You can also mix and match
+
+~~~
+mvn test -Dfeatures='/api' -Dtags=@create
+~~~
+
+or provide an environment (default is qa)
+
+~~~
+mvn test -Dkarate.env=<envname>
+~~~

@@ -95,6 +95,7 @@ Navigate to ./target/karate-reports/karate-summary.html
 #### Cucumber Reports:
 Navigate to ./target/cucumber-html-reports/overview-features.html
 
+
 ##Additional Usage
 
 To run tests of a specific 'tag' e.g. @posts

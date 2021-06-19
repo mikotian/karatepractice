@@ -87,10 +87,10 @@ mvn test
 
 for more details on the karate DSL and other samples visit: [Karate Docs](https://github.com/intuit/karate#index)
 
-##Viewing Tests Results
+## Viewing Tests Results
 
-####Karate Reports:
+#### Karate Reports:
 Navigate to ./target/karate-reports/karate-summary.html
 
-####Cucumber Reports:
+#### Cucumber Reports:
 Navigate to ./target/cucumber-html-reports/overview-features.html
